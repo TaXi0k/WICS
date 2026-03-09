@@ -1,0 +1,20 @@
+# Dependencies
+WICS/node_modules/
+
+# Build output
+WICS/dist/
+
+# Logs
+WICS/npm-debug.log*
+WICS/yarn-debug.log*
+WICS/yarn-error.log*
+
+# Environment variables
+.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# TODO files
+.todo

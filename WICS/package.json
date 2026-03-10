@@ -1,6 +1,6 @@
 {
     "name": "wics",
-    "version": "0.1.2",
+    "version": "1.0.0",
     "description": "What Is Client Sided (WICS for short) is a script checking which of files in specified directory are client sided, based on Modrinth API.",
     "main": "dist/index.js",
     "type": "module",

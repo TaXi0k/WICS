@@ -44,6 +44,7 @@ Either use `git clone https://github.com/TaXi0k/WICS` or download manually via t
 WICS needs Node.js to function at all - if you haven't installed it yet, now's the time! :3
 
 > [!TIP]
+>
 > There are multiple ways of installing node, the simples beeing via winget: `winget install -e --id OpenJS.NodeJS.LTS`
 
 **3. Actually install WICS**<br>
@@ -56,6 +57,7 @@ npm link
 ```
 
 > [!WARNING]
+>
 > Global linking (`npm link`) might need admin privileges - but don't worry, WICS will still work without it! Just run it as `node <path-to-index.js> <path-to-directory>` instead ♡
 
 ###

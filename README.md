@@ -5,26 +5,12 @@
 
 # 🗺️ Roadmap
 
-* First stable version <br>
-* Add help argument to the command <br>
-¹Modrinth API calling support (checking side of mod on Modrinth instead of in files) <br>
 
+| <img src="./assets/check.gif" width="15px">   	| First stable release                                                            	|
+|-----------------------------------------------	|:--------------------------------------------------------------------------------	|
+| <img src="./assets/loading.gif" width="15px"> 	| Add help argument to the command                                                	|
+| <img src="./assets/loading.gif" width="15px"> 	| ¹ Modrinth API support (checking mod sides via Modrinth instead of local files) 	|
 *¹ i don't know if I'll actually do this one*
-
-<table>
-    <tr>
-        <th><img src="./assets/check.gif" width="15px"></th>
-        <th>First stable release</th>
-    </tr>
-    <tr>
-        <td><img src="./assets/loading.gif" width="15px"></td>
-        <td>Add help argument to the command</td>
-    </tr>
-    <tr>
-        <td><img src="./assets/loading.gif" width="15px"></td>
-        <td>¹ Modrinth API support (checking mod sides via Modrinth instead of local files)</td>
-    </tr>
-</table>
 
 # 📦 Installation
 
@@ -59,7 +45,7 @@ npm link
 
 ## Linux
 
-## MacOS
+Coming soon!
 
 # 🗑️ Uninstallation
 
@@ -86,9 +72,9 @@ where `<path>` is the path to the directory you want to scan - both absolute and
 
 Contributions are always welcome and mean a lot! ♡ Here's how you can help:
 
-* 🐛 **Found a bug?** Open an issue!
-* 💡 **Got an idea?** Open an issue and let's talk about it!
-* 🔧 **Want to fix or add something?** PRs are very welcome - just describe what you changed and why ★
+* 🪱 **Found a bug?** Open an issue!
+* 🧠 **Got an idea?** Open an issue and let's talk about it!
+* 🩷 **Want to fix or add something?** PRs are very welcome - just describe what you changed and why ★
 
 > [!NOTE]
 > Please, submit PRs and issues only in **English** (or **Polish** if you prefer).

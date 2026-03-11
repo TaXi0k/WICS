@@ -90,4 +90,4 @@ Contributions are always welcome and mean a lot! ♡ Here's how you can help:
 > about page, or anywhere that fits ♡ Linking back to this repo would be
 > amazing too, but no pressure at all!
 
-### TYSM for using WICS, I hope it treats you well ★
+### 💗 TYSM for using WICS, I hope it treats you well ★

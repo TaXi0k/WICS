@@ -10,6 +10,7 @@
 |-----------------------------------------------	|:--------------------------------------------------------------------------------	|
 | <img src="./assets/loading.gif" width="15px"> 	| Add help argument to the command                                                	|
 | <img src="./assets/loading.gif" width="15px"> 	| ¹ Modrinth API support (checking mod sides via Modrinth instead of local files) 	|
+
 *¹ i don't know if I'll actually do this one*
 
 # 📦 Installation

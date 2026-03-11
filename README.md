@@ -3,7 +3,7 @@
 
 **What Is Client Sided** (WICS for short) is a little script that checks which files in a specified directory are client-sided Minecraft mods - super handy for figuring out which mods shouldn't be put on a server ♡**
 
-## 🗺️ Roadmap
+# 🗺️ Roadmap
 
 * First stable version <br>
 * Add help argument to the command <br>
@@ -26,10 +26,9 @@
     </tr>
 </table>
 
-## 📦 Installation
+# 📦 Installation
 
-<details>
-<summary><b>Windows</b></summary>
+## Windows
 
 ### Automatic ✨
 
@@ -44,7 +43,6 @@ Either use `git clone https://github.com/TaXi0k/WICS` or download manually via t
 WICS needs Node.js to function at all - if you haven't installed it yet, now's the time! :3
 
 > [!TIP]
->
 > There are multiple ways of installing node, the simples beeing via winget: `winget install -e --id OpenJS.NodeJS.LTS`
 
 **3. Actually install WICS**<br>
@@ -57,21 +55,13 @@ npm link
 ```
 
 > [!WARNING]
->
 > Global linking (`npm link`) might need admin privileges - but don't worry, WICS will still work without it! Just run it as `node <path-to-index.js> <path-to-directory>` instead ♡
 
-###
+## Linux
 
-</details>
+## MacOS
 
-<details>
-<summary><b>Linux</b></summary>
-</details>
-<details>
-<summary><b>MacOS</b></summary>
-</details>
-
-## 🗑️ Uninstallation
+# 🗑️ Uninstallation
 
 1. Navigate to `WICS/WICS/` in your terminal and run `npm unling -g`.
 2. Now you're safe to delete the project folder!
@@ -79,7 +69,7 @@ npm link
 > [!NOTE]
 > If `npm link` never succeeded during installation, step 1 will likely throw a harmless error - just skip it and go straight to deleting the folder ♡
 
-## 🚀 Usage
+# 🚀 Usage
 
 Using WICS is unbelievably simple! Just run:
 
@@ -92,7 +82,7 @@ where `<path>` is the path to the directory you want to scan - both absolute and
 > [!WARNING]
 > If `npm link` failed during installation, use `node <path-to-index.js> <path-to-directory>` instead - again, both absolute and relative paths are fine!
 
-## 🤝 Contributing
+# 🤝 Contributing
 
 Contributions are always welcome and mean a lot! ♡ Here's how you can help:
 
@@ -103,7 +93,7 @@ Contributions are always welcome and mean a lot! ♡ Here's how you can help:
 > [!NOTE]
 > Please, submit PRs and issues only in **English** (or **Polish** if you prefer).
 
-## 📄 License
+# 📄 License
 
 **WICS** is shared under the **MIT License** - see [LICENSE](LICENSE) for details.
 

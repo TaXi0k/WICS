@@ -15,10 +15,16 @@ const loaders = [
             envKey: 'environment'
         },
         {
-            name: 'forge/neoforge',
+            name: 'forge',
             file: 'META-INF/mods.toml',
             idRegex: /modId\s*=\s*["']([^"']+)["']/,
             envRegex: /side\s*=\s*["'](SERVER|CLIENT|BOTH)["']/i
+        },
+        {
+            name: 'neoforge',
+            file: 'META-INF/neoforge.mods.toml', // <-- ADD THIS
+            idRegex: /modId\s*=\s*["']?([^"'\s]+)["']?/,
+            envRegex: /side\s*=\s*["']?([^"'\s]+)["']?/i
         }
 ];
 

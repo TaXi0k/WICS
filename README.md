@@ -3,6 +3,8 @@
 
 **What Is Client Sided** (WICS for short) is a little script that checks which files in a specified directory are client-sided Minecraft mods - super handy for figuring out which mods shouldn't be put on a server ♡**
 
+<br><br>
+
 # 🗺️ Roadmap
 
 
@@ -12,6 +14,8 @@
 | <img src="./assets/loading.gif" width="15px"> 	| ¹ Modrinth API support (checking mod sides via Modrinth instead of local files) 	|
 
 *¹ i don't know if I'll actually do this one*
+
+<br><br>
 
 # 📦 Installation
 
@@ -48,6 +52,8 @@ npm link
 
 Coming soon!
 
+<br><br>
+
 # 🗑️ Uninstallation
 
 1. Navigate to `WICS/WICS/` in your terminal and run `npm unling -g`.
@@ -55,6 +61,8 @@ Coming soon!
 
 > [!NOTE]
 > If `npm link` never succeeded during installation, step 1 will likely throw a harmless error - just skip it and go straight to deleting the folder ♡
+
+<br><br>
 
 # 🚀 Usage
 
@@ -69,6 +77,23 @@ where `<path>` is the path to the directory you want to scan - both absolute and
 > [!WARNING]
 > If `npm link` failed during installation, use `node <path-to-index.js> <path-to-directory>` instead - again, both absolute and relative paths are fine!
 
+<br><br>
+
+# ❌ Unsupported mods
+
+Basically every mod that doesn't contain a standard metadata files (`mods.toml` / `neoforge.mods.toml` / `fabric.mod.json`).
+
+Here is the list of mods that I know are unsupported (just skipped by the script):
+<details>
+<summary><b>List</b></summary>
+
+* Connector
+* Kotlin for forge
+
+</details>
+
+<br><br>
+
 # 🤝 Contributing
 
 Contributions are always welcome and mean a lot! ♡ Here's how you can help:
@@ -79,6 +104,8 @@ Contributions are always welcome and mean a lot! ♡ Here's how you can help:
 
 > [!NOTE]
 > Please, submit PRs and issues only in **English** (or **Polish** if you prefer).
+
+<br><br>
 
 # 📄 License
 

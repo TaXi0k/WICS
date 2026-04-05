@@ -1,8 +1,9 @@
 
 ![WICS](./assets/RepoHeader.png)
+<sub>/'wɪks/</sub>
 
-**What Is Client Sided** (WICS for short) is a little script that checks which files in a specified directory are client-sided Minecraft mods - super handy for figuring out which mods shouldn't be put on a server ♡
-<br><sub>Phonetically: /'wɪks/</sub>
+**What Is Client Sided** is a little script that checks which files in a specified directory are client-sided Minecraft mods - super handy for figuring out which mods shouldn't be put on a server ♡
+<br>
 
 <br><br>
 

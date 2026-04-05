@@ -22,7 +22,7 @@ const loaders = [
         },
         {
             name: 'neoforge',
-            file: 'META-INF/neoforge.mods.toml', // <-- ADD THIS
+            file: 'META-INF/neoforge.mods.toml',
             idRegex: /modId\s*=\s*["']?([^"'\s]+)["']?/,
             envRegex: /side\s*=\s*["']?([^"'\s]+)["']?/i
         }

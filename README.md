@@ -2,7 +2,7 @@
 ![WICS](./assets/RepoHeader.png)
 <sub>/'wɪks/</sub>
 
-> [!INFO]
+> [!NOTE]
 > This branch is dedicated for a rewrite of **WICS** in Rust. It will support checking data on **Modrinth** and some more!
 
 **What Is Client Sided** is a little script that checks which files in a specified directory are client-sided Minecraft mods - super handy for figuring out which mods shouldn't be put on a server ♡

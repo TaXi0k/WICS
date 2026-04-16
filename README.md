@@ -52,7 +52,14 @@ npm link
 
 ## Linux
 
-Coming soon!
+1. Clone this repo
+2. Install Node.js if you don't have it already
+3. Navigate to `WICS/WICS/` (where you have `src/`) and run following commands:
+``` sh
+npm install
+npm run build
+npm link
+```
 
 <br><br>
 

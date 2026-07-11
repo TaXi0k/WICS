@@ -1,8 +1,8 @@
 # Dependencies
-WICS/node_modules/
+
 
 # Build output
-WICS/dist/
+wics/target/
 
 # Logs
 WICS/npm-debug.log*

@@ -3,7 +3,7 @@
 <sub>/'wɪks/</sub>
 
 > [!NOTE]
-> This branch is dedicated for a rewrite of **WICS** in Rust. It will support checking data on **Modrinth** and some more! This means most od readme.md following this point will not be accurate since i didn'care to update it. I will sometime.
+> This branch is dedicated for a rewrite of **WICS** in Rust. It will support checking data on **Modrinth** and some more! This means most od readme.md following this point will not be accurate since i didn't care to update it. I will sometime.
 
 **What Is Client Sided** is a little script that checks which files in a specified directory are client-sided Minecraft mods - super handy for figuring out which mods shouldn't be put on a server ♡
 <br>

@@ -4,10 +4,7 @@ use std::sync::OnceLock;
 use tools::*;
 use owo_colors::OwoColorize;
 
-use crate::api::QueryError;
-use crate::api::QueryResult;
-use crate::tools::LogType::Error;
-use crate::tools::LogType::Plain;
+use crate::tools::LogType::*;
 
 mod api;
 mod file;
@@ -21,14 +18,17 @@ pub struct AppConfig {
 pub static CONFIG: OnceLock<AppConfig> = OnceLock::new();
 
 fn main() {
-    println!("Hello, world!");
-
     let mut log_flag = false;
     let mut list_ok_flag = false;
 
     //ARGUMENTS------------------------------------
     //Collect arguments
     let input: Vec<String> = env::args().collect();
+    
+    if input.len() == 1 {
+        println!("‼️  Please provide arguments to this function in following manner:\n1. Path to directory to scan\n2. (optional) Other arguments, supported are:\n   -log        logs all the activity\n   -ok         lists mods that are supported on server, otherwise these are just skipped");
+        panic!();
+    }
 
     //Get 1st argument (path)
     let path: String = input[1].clone();
@@ -63,9 +63,9 @@ fn main() {
         .collect();
 
 
-    dbg!(&input);
-    dbg!(&path);
-    dbg!(&args);
+    //  dbg!(&input);
+    //  dbg!(&path);
+    //  dbg!(&args);
 
     if config.log {
         println!("ℹ️  {}", "Found following files:".bright_blue());

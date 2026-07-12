@@ -1,10 +1,12 @@
 [package]
 name = "wics"
-version = "0.1.0"
+version = "2.0.0"
 edition = "2024"
 
 [dependencies]
 json = "0.12.4"
 mimetype-detector = "0.3.10"
+owo-colors = "4.3.0"
 toml = "1.1.2"
+ureq = "3.3.0"
 zip = "8.6.0"

@@ -2,8 +2,13 @@
 ![WICS](./assets/RepoHeader.png)
 <sub>/'wɪks/</sub>
 
+# READ BOLD PART OF NOTE!!!
+
 > [!NOTE]
-> This branch is dedicated for a rewrite of **WICS** in Rust. It will support checking data on **Modrinth** and some more! This means most od readme.md following this point will not be accurate since i didn't care to update it. I will sometime.
+> Read carefully since this is kinda complicated xd:
+> This branch is dedicated for well big update (almost a rewrite honestly) of the rewrite of wics. This branch will be in rust same as 2.0.0 one. Why a separate branch you might ask, I think its better to keep old one since it worked partially and I have no clue if this approach will work at all. Anyway, **If you want a functional app just go to main branch and install it using instructions in it's `README.md`, it works well**, both -rust branches are here since I just want to experiment and check if I can come up with something that works better. IF you are still reading you are likely for some reason interested in what I do here so here is general idea of what I want to change in this branch with some more technical details: As it turned out modId usually doesn't reflect slug of modrinth's project (who would've thought (well I didn't)) so shitload of mods just throw 404 which makes 2.0.0 (well v2.0.1 release) not worth using. So now I want to first calculate sha1 or sha2 of a .jar then provide it to modrinth api to get thier internal project_id and then query for that internal id, shoutout to Gemini for that idea since I had no clue for another approach to that project and I have no friends to think this through with. Will this work? I have no clue (like rly 0, I don't even know if it's really possible to query modrinth api with file hash, didn't check yet) but I'll try and maybe it will be best app in the world? Might be if you ask me.
+>
+> This means most od readme.md following this point will not be accurate since i didn't care to update it. I will sometime.
 
 **What Is Client Sided** is a little script that checks which files in a specified directory are client-sided Minecraft mods - super handy for figuring out which mods shouldn't be put on a server ♡
 <br>
